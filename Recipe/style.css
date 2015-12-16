@@ -1,0 +1,118 @@
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: pink;
+}
+
+a:hover {
+	color: purple;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a:active {
+	color: black;
+}
+
+.accordion-content {
+	display: none;
+	line-height: 2em;
+}
+
+.accordion-content.default {
+	display: block;
+	line-height: 2em;
+}
+
+.accordion-toggle {
+	font-style: bold;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: auto;
+	max-width: 800px;
+}
+
+#button {
+	background-color: gray;
+	border-radius: 5px;
+	color: white;
+	font-style: bold;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 200px;
+}
+
+.crossout {
+	text-decoration: line-through;
+}
+
+h1 {
+	background-color: rgba(40,0,0,0.4);
+    border: 0;
+    bottom: 0;
+    color: white;
+    font-size: 5em;
+    margin-bottom: 4px;
+    padding-left: 20px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 780px;
+}
+
+h2 {
+	background-color: gray;
+	border: 0.15em solid gray;
+	color: white;
+	font-size: 2em;
+	margin: auto;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+header {
+	position: relative;
+}
+
+#headpara {
+	font-size: 1em;
+	font-weight: lighter;
+	line-height: 2em;
+}
+
+#imgani {
+	border-radius: 1em;
+	box-shadow: 10px 10px 5px gray;
+	display: block;
+	margin: auto;
+}
+
+#imgani:hover {
+	border: 7px solid black;
+	transform: rotate(180deg);
+	transition-duration: 4s;
+
+}
+
+.imgdir {
+	border-radius: 0;
+	width: 500px;
+}
+
+#imgmain {
+	width: 800px;
+}
+
+#ingredients {
+	line-height: 2em;
+
+}
